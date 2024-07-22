@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-poppins scroll-smooth;
+  }
+  body {
+    @apply box-border bg-gray-900 text-gray-100;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-cyan-600 font-semibold text-white md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
+  }
+
+  .aboutImg::after {
+    @apply content-[''] w-full left-0 top-0 rounded-xl rotate-12 hue-rotate-15 h-full absolute bg-gradient-to-r from-cyan-500 to-cyan-700 shadow-xl -z-10;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
+  }
+}
+
+@layer utilities {
+  .swiper-pagination-bullet {
+    @apply bg-white;
+  }
+
+  input,
+  textarea {
+    @apply bg-gray-700 outline-none rounded-lg p-3;
+  }
+
+  ::placeholder {
+    @apply text-lg;
+  }
+
+  ::selection {
+    @apply bg-cyan-600;
+  }
+  .custom-swiper-pagination .swiper-pagination-bullet {
+    background-color: #fff;
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+    border-radius: 0;
+  }
+  .custom-swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #00bcd4;
+    transform: scale(1.2);
+    width: 10px;
+    height: 10px;
+    border-radius: 0;
+  }
+  
+}
