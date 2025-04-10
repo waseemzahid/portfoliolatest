@@ -29,6 +29,8 @@ const Hero = () => {
           <h2 className='text-white md:text-5xl text-3xl font-extrabold md:mt-5 mt-16'>
           <span>I'm a </span>
           <TypeAnimation sequence={[
+            'WordPress Full Stack Developer',
+            1000,
             'Frontend Developer',
             1000,
             'React Js Developer',
@@ -46,7 +48,7 @@ const Hero = () => {
           />
         </h2>
         <p className='text-white sm:text-lg my-8 md:mx-0 mx-10 md:mr-20 lg:text-xl'>
-        I have 1+ year experience in React Js, Next Js and MERN Stack and about 1.5 years experience of Frontend(psd to html) + Wordpress.
+        I have 3.5+ years of experience in Frontend Development (PSD to HTML, WordPress Theme & Plugin Development) and 1+ year of experience with React JS, Next JS, and the MERN Stack.
         </p>
           <a href="#contact"><button className="btn-primary mt-8 hover:scale-105 transition-transform duration-300 ease-in-out">Contact Me</button></a>
           <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
