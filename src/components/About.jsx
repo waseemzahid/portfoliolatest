@@ -2,9 +2,9 @@ import React from 'react'
 import aboutImg from '../assets/images/image.png'
 const About = () => {
   const info = [
-    { text: 'Years experience', count: '02' },
-    { text: 'Completed Projects', count: '10' },
-    { text: 'Companies Work', count: '02' },
+    { text: 'Years experience', count: '03' },
+    { text: 'Completed Projects', count: '20' },
+    { text: 'Companies Work', count: '03' },
   ]
   return (
     <section id="about" className="py-10 text-white">
@@ -24,32 +24,25 @@ const About = () => {
             <div className="text-gray-300 my-3">
               <ul className="text-base lg:text-lg list-none text-left">
                 <li className="mb-2 pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-cyan-600 before:text-[36px]">
-                  Proficient in MERN Stack, React JS, Next JS & Node JS with
-                  experience in JavaScript.
+                  Experienced Full Stack WordPress Developer skilled in building and maintaining high-performance, responsive websites.
                 </li>
                 <li className="mb-2 pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-cyan-600 before:text-[36px]">
-                  Skilled in utilizing Jira for task management, including
-                  creating and assigning tasks for efficient project execution.
+                  Proficient in customizing WordPress themes and plugins to deliver tailored solutions aligned with client objectives.
                 </li>
                 <li className="mb-2 pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-cyan-600 before:text-[36px]">
-                  Experienced in setting up and managing CI/CD workflows,
-                  including creating pipelines and leveraging GitHub Actions for
-                  automated workflows.
+                  Adept at troubleshooting website issues, optimizing speed and SEO, and ensuring compatibility across all devices and browsers.
                 </li>
                 <li className="mb-2 pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-cyan-600 before:text-[36px]">
-                  Proficient in utilizing frontend development frameworks such
-                  as Tailwind CSS, Material-UI, and Chakra-UI to create visually
-                  appealing and responsive web applications.
+                  Strong experience in developing custom templates, widgets, and shortcodes to enhance WordPress functionality.
                 </li>
                 <li className="mb-2 pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-cyan-600 before:text-[36px]">
-                  Expert in frontend animations utilizing Framer Motion library,
-                  with additional experience in SVG animations using Lottie
-                  Files.
+                  Collaborative team player with a solid background in working closely with design teams to implement pixel-perfect UI/UX.
                 </li>
                 <li className="mb-2 pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-cyan-600 before:text-[36px]">
-                  Experienced in implementing authentication using Firebase and
-                  validation using Formik, React Hook Form, and Joi-Browser for
-                  robust data validation.
+                  Versatile in front-end and back-end development, ensuring seamless integration of dynamic features and third-party APIs.
+                </li>
+                <li className="mb-2 pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-cyan-600 before:text-[36px]">
+                  Experienced in MERN Stack, React JS, Next JS, and Node JS, enabling robust, scalable, and interactive web applications.
                 </li>
               </ul>
               <div className="flex mt-10 items-center gap-7">
@@ -65,7 +58,7 @@ const About = () => {
               </div>
               <br />
               <br />
-              <a href="https://drive.google.com/uc?export=download&id=1V-iREp3jUcT-ATHDppWzqD0oS7uPNxtW" download>
+              <a href="https://drive.google.com/uc?export=download&id=1qLlTzEHckFY0j63AuJhoVSEZl4U6FZR5" download>
                 <button className="btn-primary mt-8 hover:scale-105 transition-transform duration-300 ease-in-out">
                   Download CV
                 </button>
