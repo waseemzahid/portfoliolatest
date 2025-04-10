@@ -20,6 +20,10 @@ import firebaseLogo from '../assets/images/firebase.png'
 const Skills = () => {
   const skills = [
     {
+      logo: wordpressLogo,
+      name: "Wordpress",
+    },
+    {
       logo: htmlLogo,
       name: "HTML5",
     },
@@ -82,10 +86,6 @@ const Skills = () => {
     {
       logo: stripeLogo,
       name: "Stripe",
-    },
-    {
-      logo: wordpressLogo,
-      name: "Wordpress",
     },
   ];
   return (
