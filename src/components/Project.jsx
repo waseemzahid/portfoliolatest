@@ -76,7 +76,7 @@ const Project = () => {
       <div className="flex justify-center my-8 gap-4">
         <button
           onClick={() => setActiveTab("wordpress")}
-          className={`px-4 py-2 rounded-full ${
+          className={` ${
             activeTab === "wordpress" ? "btn-primary hover:scale-105 transition-transform duration-300 ease-in-out" : "bg-gray-700 text-gray-300"
           }`}
         >
@@ -84,7 +84,7 @@ const Project = () => {
         </button>
         <button
           onClick={() => setActiveTab("react")}
-          className={`px-4 py-2 rounded-full ${
+          className={`${
             activeTab === "react" ? "btn-primary hover:scale-105 transition-transform duration-300 ease-in-out" : "bg-gray-700 text-gray-300"
           }`}
         >
