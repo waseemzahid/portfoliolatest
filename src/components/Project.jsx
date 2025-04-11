@@ -7,6 +7,14 @@ import project4 from "../assets/images/project-4.png";
 import project5 from "../assets/images/project-5.png";
 import project6 from "../assets/images/project-6.png";
 import project7 from "../assets/images/project-7.png";
+import project8 from "../assets/images/WordPress1.png";
+import project9 from "../assets/images/WordPress2.png";
+import project10 from "../assets/images/WordPress3.png";
+import project11 from "../assets/images/WordPress4.png";
+import project12 from "../assets/images/WordPress5.png";
+import project13 from "../assets/images/WordPress6.png";
+import project14 from "../assets/images/WordPress7.png";
+import project15 from "../assets/images/WordPress8.png";
 import project_person from "../assets/images/project_person1.png";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -17,16 +25,14 @@ const Project = () => {
 
   const wordpressProjects = [
     {
-      img: project5,
-      name: "Custom WordPress Theme",
-      github_link: "https://github.com/waseemzahid/wp-custom-theme",
-      live_link: "https://your-wordpress-site.com",
+      img: project8,
+      name: "Personal Drivers",
+      live_link: "https://www.personaldrivers.com/",
     },
     {
-      img: project6,
-      name: "WooCommerce Shop Setup",
-      github_link: "https://github.com/waseemzahid/wp-woocommerce-shop",
-      live_link: "https://your-woocommerce-demo.com",
+      img: project9,
+      name: "Mtech Motor Cycles",
+      live_link: "https://www.mtechmotorcycles.com/",
     },
   ];
 
@@ -126,6 +132,7 @@ const Project = () => {
                     <img src={project_info.img} alt="" className="rounded-lg h-44 w-full" />
                     <h3 className="text-xl my-4 text-cyan-500 font-semibold">{project_info.name}</h3>
                     <div className="flex gap-3">
+                    {project_info.github_link && (
                       <a
                         href={project_info.github_link}
                         target="_blank"
@@ -133,6 +140,7 @@ const Project = () => {
                       >
                         Github
                       </a>
+                    )}
                       <a
                         href={project_info.live_link}
                         target="_blank"
