@@ -15,12 +15,7 @@ const Hireme = () => {
             Do you want any work from me?
           </h2>
           <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6 md:mr-[24rem]">
-          I am proficient in building products using modern technologies such as React JS, Next JS, 
-          MERN Stack, Web Socket, Web RTC, Firebase, Tailwind CSS, Material-UI, Next Auth, ShadCn 
-          and Strapi CMS. My expertise includes managing the development and deployment of front-end 
-          and back-end services across multiple cloud platforms. I specialize in architecting solutions 
-          for complex business problems involving large-scale real-time and asynchronous applications, 
-          leveraging both my logical and theoretical knowledge of the MERN Stack.
+          I am a Full Stack WordPress Developer with hands-on experience in building and maintaining responsive, high-performance websites. My skill set includes WordPress, HTML5, CSS3, JavaScript, React JS, Next JS, Node JS, Express JS, and MongoDB. I specialize in developing custom WordPress themes and plugins, resolving complex functionality issues, and optimizing websites for speed, SEO, and cross-device compatibility. I am also proficient in modern front-end technologies like Tailwind CSS, Material UI, Shad CN, and Redux, as well as real-time tools like Socket.IO and WebRTC. Additionally, I have experience working with Firebase for authentication and data handling, and Stripe for secure payment integrations. I collaborate closely with design teams to transform UI/UX designs into seamless, functional experiences, while managing both front-end and back-end services with scalable, cloud-ready solutions.
           </p>
           <a href="tel:+923006997639"><button className="btn-primary mt-10 hover:scale-105 transition-transform duration-300 ease-in-out">Say Hello</button></a>
         </div>
