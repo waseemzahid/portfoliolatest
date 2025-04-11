@@ -39,21 +39,33 @@ const Project = () => {
     },
     {
       img: project3,
-      name: "MERN Medicare Booking App with Stripe",
+      name: "MERN Medicare Booking App with Stripe Payment",
       github_link: "https://github.com/waseemzahid/MedicareBooking",
       live_link: "https://medicare-booking-frontend.vercel.app/",
     },
     {
       img: project2,
-      name: "E-Commerce Next JS APP With Stripe",
+      name: "E-Commerce Next JS APP With Stripe Payment",
       github_link: "https://github.com/waseemzahid/amazonpro",
       live_link: "https://amazonpro-chi.vercel.app/",
     },
     {
       img: project7,
-      name: "NEXT Js Home Interior Website",
+      name: "NEXT Js Home Interior Design Website",
       github_link: "https://github.com/waseemzahid/Home-Interior",
       live_link: "https://home-interior-three.vercel.app/",
+    },
+    {
+      img: project5,
+      name: "React Js Educational Website",
+      github_link: "https://github.com/waseemzahid/edusity",
+      live_link: "https://edusity-nu.vercel.app/",
+    },
+    {
+      img: project6,
+      name: "Netflix Clone With Firebase Authentication",
+      github_link: "https://github.com/waseemzahid/Netflix-Clone",
+      live_link: "https://netflix-clone-psi-three-66.vercel.app/",
     },
     {
       img: project1,
