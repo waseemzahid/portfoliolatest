@@ -34,6 +34,36 @@ const Project = () => {
       name: "Mtech Motor Cycles",
       live_link: "https://www.mtechmotorcycles.com/",
     },
+    {
+      img: project10,
+      name: "Farm Journal",
+      live_link: "https://www.farmjournal.com/",
+    },
+    {
+      img: project11,
+      name: "Halal Gelatin",
+      live_link: "https://halalgelatin.com/",
+    },
+    {
+      img: project12,
+      name: "Eezy Outsource",
+      live_link: "https://eezyoutsource.com/",
+    },
+    {
+      img: project13,
+      name: "Pawsome Suites of America",
+      live_link: "https://www.pawsomesuitesofamerica.com/",
+    },
+    {
+      img: project14,
+      name: "Sadiq Gelatin",
+      live_link: "https://sadiqgelatin.com/",
+    },
+    {
+      img: project15,
+      name: "Itechx Co Uk",
+      live_link: "https://itechx.co.uk/",
+    },
   ];
 
   const reactProjects = [
