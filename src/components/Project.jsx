@@ -77,7 +77,7 @@ const Project = () => {
         <button
           onClick={() => setActiveTab("wordpress")}
           className={`px-4 py-2 rounded-full ${
-            activeTab === "wordpress" ? "bg-cyan-600 text-white" : "bg-gray-700 text-gray-300"
+            activeTab === "wordpress" ? "btn-primary hover:scale-105 transition-transform duration-300 ease-in-out" : "bg-gray-700 text-gray-300"
           }`}
         >
           WordPress
@@ -85,7 +85,7 @@ const Project = () => {
         <button
           onClick={() => setActiveTab("react")}
           className={`px-4 py-2 rounded-full ${
-            activeTab === "react" ? "bg-cyan-600 text-white" : "bg-gray-700 text-gray-300"
+            activeTab === "react" ? "btn-primary hover:scale-105 transition-transform duration-300 ease-in-out" : "bg-gray-700 text-gray-300"
           }`}
         >
           React JS / MERN
