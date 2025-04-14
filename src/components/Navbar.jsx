@@ -5,8 +5,9 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
 
+
   const menuLinks = [
-    { name: "Home", link: "#" },
+    { name: "Home", link: "#home" },
     { name: "ABOUT", link: "#about" },
     { name: "SKILLS", link: "#skills" },
     { name: "PROJECTS", link: "#projects" },
@@ -15,22 +16,26 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollY = window.scrollY;
+      setSticky(window.scrollY > 0);
 
-      setSticky(scrollY > 0);
+      const scrollPosition = window.scrollY + window.innerHeight / 2;
 
-      const sections = menuLinks.map((menu) => document.querySelector(menu.link));
-      sections.forEach((section, i) => {
-        if (section) {
-          const offsetTop = section.offsetTop - 100;
-          const offsetHeight = section.offsetHeight;
-          if (scrollY >= offsetTop && scrollY < offsetTop + offsetHeight) {
-            setActiveSection(menuLinks[i].link);
+      let current = "";
+      for (const section of menuLinks) {
+        const element = document.querySelector(section.link);
+        if (element) {
+          const offsetTop = element.offsetTop;
+          const offsetHeight = element.offsetHeight;
+          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+            current = section.link;
           }
         }
-      });
+      }
+
+      setActiveSection(current || "#home");
     };
 
+    handleScroll(); // Run on initial load
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -43,7 +48,7 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between">
         <div className="mx-7">
-          <a href="#">
+          <a href="#home">
             <h4 className="text-3xl uppercase font-bold">
               Waseem{" "}
               <span
@@ -66,8 +71,8 @@ const Navbar = () => {
             {menuLinks.map((menu, i) => (
               <li
                 key={i}
-                className={`px-6 hover:text-cyan-600 ${
-                  activeSection === menu.link ? "text-cyan-600" : ""
+                className={`px-6 hover:text-cyan-600 transition-all duration-200 ${
+                  activeSection === menu.link ? "text-cyan-600 font-semibold" : ""
                 }`}
               >
                 <a href={menu.link}>{menu.name}</a>
@@ -98,7 +103,7 @@ const Navbar = () => {
                 onClick={() => setOpen(false)}
                 key={i}
                 className={`px-6 hover:text-cyan-600 ${
-                  activeSection === menu.link ? "text-cyan-600" : ""
+                  activeSection === menu.link ? "text-cyan-600 font-semibold" : ""
                 }`}
               >
                 <a href={menu.link}>{menu.name}</a>
