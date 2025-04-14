@@ -15,6 +15,7 @@ import project12 from "../assets/images/WordPress5.png";
 import project13 from "../assets/images/WordPress6.png";
 import project14 from "../assets/images/WordPress7.png";
 import project15 from "../assets/images/WordPress8.png";
+import project16 from "../assets/images/WordPress9.png";
 import project_person from "../assets/images/project_person1.png";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -38,6 +39,11 @@ const Project = () => {
       img: project10,
       name: "Farm Journal",
       live_link: "https://www.farmjournal.com/",
+    },
+    {
+      img: project16,
+      name: "Make Customers for Life",
+      live_link: "https://www.makecustomersforlife.com/",
     },
     {
       img: project11,
