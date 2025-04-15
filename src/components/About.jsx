@@ -66,7 +66,7 @@ const About = () => {
             </div>
           </div>
           <div className="flex-1 md:mt-0 mt-6 flex justify-center items-center">
-            <div className="lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-md"  style={{ marginTop: "-20rem" }}>
+            <div className="lg:w-[28rem] h-full relative sm:w-10/12 w-11/12 max-w-md"  style={{ marginTop: "-17rem" }}>
               <img
                 src={aboutImg}
                 alt=""
