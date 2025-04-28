@@ -127,7 +127,7 @@ const Project = () => {
         </h3>
         <p className="text-gray-400 mt-3 text-lg">My awesome works</p>
       </div>
-      <div className="flex justify-center gap-4 my-8 w-full max-w-full mx-auto sm:w-[80%] sm:my-[30px]">
+      <div className="flex justify-center gap-4 my-8 mx-auto sm:w-[80%] sm:my-[30px]">
         <button
           onClick={() => setActiveTab("wordpress")}
           className={`px-4 py-2 rounded-full ${
