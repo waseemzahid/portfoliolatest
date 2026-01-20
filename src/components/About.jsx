@@ -58,7 +58,7 @@ const About = () => {
               </div>
               <br />
               <br />
-              <a href="https://drive.google.com/uc?export=download&id=1qLlTzEHckFY0j63AuJhoVSEZl4U6FZR5" download>
+              <a href="https://drive.google.com/uc?export=download&id=1dBG8pfo7-3gMgFu3-jFO6kjeDQ4Yu7FV" download>
                 <button className="btn-primary mt-8 hover:scale-105 transition-transform duration-300 ease-in-out">
                   Download CV
                 </button>
